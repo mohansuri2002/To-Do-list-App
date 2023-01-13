@@ -1,0 +1,93 @@
+.main_div {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    margin: 0;
+    left: 40%;
+    top: 10%;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.content_div {
+    display: block;
+    width: 300px;
+
+    overflow-y: auto;
+
+}
+
+.content_div h1 {
+    margin-top: -15px;
+    padding-left: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgb(209, 208, 208);
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+input {
+    text-decoration: none;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightblue;
+    margin-left: 8%;
+
+}
+
+input:focus {
+    border-color: blue;
+}
+
+.add_btn {
+    border-radius: 50%;
+    margin-left: 15px;
+    background-color: #498103;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+AddIcon {
+    font-size: large;
+}
+
+ol {
+    list-style: none;
+}
+
+/* ol li {
+    display: inline-flex;
+    border:1px solid red;
+    padding-left: 10px;
+   
+} */
+.list_item {
+    display: inline;
+    position: relative;
+    top:-13px;
+    padding-left: 8px;
+    color: #007EE5;
+}
+
+.delete_btn {
+    background-color:#007EE5;
+    border-radius: 50%;
+    padding: 5px;
+     color:white;
+}
+
+.delete_btn:hover {
+    background-color: rgb(248, 246, 246);
+    color: red;
+
+}
+
+.list {
+    margin: 0;
+    margin-left: -15px;
+}
